@@ -1,1 +1,15 @@
-{"latestVersion":"2.1.10","tag":"v2.1.10","title":"RocoWorldPad 2.1.10","force":false,"installerUrl":"https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.10/RocoWorldPad_Setup_2.1.10.exe","sha256":"e52dd2b02b642e258b7928f0da0d747bd961f8befb44fc280e2b505c43f3e4df","notes":["新增按键改键多键位配置","新增按键改键左右侧竖排提示框","修复滚轮点按一次滚动多次","优化临时改键按住松开切换"]}
+{
+  "latestVersion": "2.1.11",
+  "tag": "v2.1.11",
+  "title": "RocoWorldPad 2.1.11",
+  "force": false,
+  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.11/RocoWorldPad_Setup_2.1.11.exe",
+  "sha256": "98197ff00c1e85b1684f6ec841a1c6521bba3ee27318f1d2ad411720ccb44318",
+  "notes": [
+    "新增配置导出备注：导出配置时可填写给导入者看的说明。",
+    "新增配置导入备注提示：导入带备注的配置时会询问是否打开备注，导入后备注不会反复弹出。",
+    "优化映射配置页面：右侧映射设置面板支持收起，收起后手柄图自动居中。",
+    "修复导入配置后修改内容重启丢失的问题，强化导入后立即保存和本地/原生配置选择逻辑。",
+    "修复部分配置元数据保存后重启被旧数据覆盖的问题。"
+  ]
+}

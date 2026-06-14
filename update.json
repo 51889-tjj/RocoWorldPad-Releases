@@ -1,15 +1,16 @@
 {
-  "latestVersion": "2.1.11",
-  "tag": "v2.1.11",
-  "title": "RocoWorldPad 2.1.11",
+  "latestVersion": "2.1.12",
+  "tag": "v2.1.12",
+  "title": "RocoWorldPad 2.1.12",
   "force": false,
-  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.11/RocoWorldPad_Setup_2.1.11.exe",
-  "sha256": "98197ff00c1e85b1684f6ec841a1c6521bba3ee27318f1d2ad411720ccb44318",
+  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.12/RocoWorldPad_Setup_2.1.12.exe",
+  "sha256": "c5a12ff76dba04e514748d7fc0bcb6b11e7b10256cc760c642f8fed268c5ed69",
   "notes": [
-    "新增配置导出备注：导出配置时可填写给导入者看的说明。",
-    "新增配置导入备注提示：导入带备注的配置时会询问是否打开备注，导入后备注不会反复弹出。",
-    "优化映射配置页面：右侧映射设置面板支持收起，收起后手柄图自动居中。",
-    "修复导入配置后修改内容重启丢失的问题，强化导入后立即保存和本地/原生配置选择逻辑。",
-    "修复部分配置元数据保存后重启被旧数据覆盖的问题。"
+    "修复焦点导航页面进入后黑屏、卡死的问题。",
+    "焦点导航进入键支持完整键盘选择，方便配合轮盘等虚拟按键进入。",
+    "左下角切层提示优先显示用户填写的层级备注/名称，不再显示 layer 编号。",
+    "优化主层/次层的图像识别切换逻辑：次层识别优先，次层参照物消失后回到所属主层。",
+    "修复进入次层后主层映射仍然参与匹配，导致配置混用的问题。",
+    "在线更新检测到新版本时会弹出本次更新说明，并继续保留下载进度和速度显示。"
   ]
 }

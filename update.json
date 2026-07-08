@@ -1,14 +1,14 @@
 ﻿{
-    "latestVersion":  "2.1.14",
-    "tag":  "v2.1.14",
-    "title":  "RocoWorldPad 2.1.14",
+    "latestVersion":  "2.1.15",
+    "tag":  "v2.1.15",
+    "title":  "RocoWorldPad 2.1.15",
     "force":  false,
-    "installerUrl":  "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.14/RocoWorldPad_Setup_2.1.14.exe",
-    "sha256":  "faee34acabf25d4c1a36b6caa203bf115849d77ad0cdf3fc12976d54895c1503",
+    "installerUrl":  "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.15/RocoWorldPad_Setup_2.1.15.exe",
+    "sha256":  "3e04e40a0a87777909c119911d59f47726b7ab6cb86af5a29baaf2853598c35f",
     "notes":  [
-                  "修复焦点导航滚动抽屉底点/顶点横向切换问题，多个底点可以按左右在同组内稳定循环。",
-                  "修复旧焦点树上下左右控制键为空时，左右方向无法触发的问题；旧配置会自动兜底为十字键方向。",
-                  "统一软件版本来源到 2.1.14，修复检查更新页面重启后“当前版本”回到旧版本的问题。",
-                  "同步更新配置版本标记，避免导出配置和运行时状态出现版本不一致。"
+                  "新增主映射输出目标的组合键模式，可在键盘目标里选择多个键，按下手柄键时同步按下组合键，松开时同步释放。",
+                  "组合键配置支持保存与重新读取，并在映射面板中显示为组合键名称。",
+                  "限制组合键入口只出现在主映射输出目标，避免双击、长按、子操作等位置出现可选但不生效的误导入口。",
+                  "修复原生日志中部分破损字符串导致的构建失败问题，提升发布构建稳定性。"
               ]
 }

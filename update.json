@@ -1,14 +1,14 @@
 {
-  "latestVersion": "2.1.15",
-  "tag": "v2.1.15",
-  "title": "RocoWorldPad 2.1.15",
+  "latestVersion": "2.1.16",
+  "tag": "v2.1.16",
+  "title": "RocoWorldPad 2.1.16",
   "force": false,
-  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.15/RocoWorldPad_Setup_2.1.15.exe",
-  "sha256": "3e04e40a0a87777909c119911d59f47726b7ab6cb86af5a29baaf2853598c35f",
+  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.16/RocoWorldPad_Setup_2.1.16.exe",
+  "sha256": "00c8eead62695a42efe77094ecdb88d166e8c19ef0a2d40f21f5fe2106d8ca3c",
   "notes": [
-    "新增主映射输出目标的组合键模式，可在键盘目标里选择多个键，按下手柄键时同步按下组合键，松开时同步释放。",
-    "组合键配置支持保存与重新读取，并在映射面板中显示为组合键名称。",
-    "限制组合键入口只出现在主映射输出目标，避免双击、长按、子操作等位置出现可选但不生效的误导入口。",
-    "修复原生日志中部分破损字符串导致的构建失败问题，提升发布构建稳定性。"
+    "Layer-specific controller overlays with Xbox and PlayStation prompts.",
+    "Cross-area keyboard and mouse combos plus wheel layer selection.",
+    "Stick hold/toggle actions, adjustable deadzones, and FF14 wheel flicker fix.",
+    "Recognition point jumps support a configurable 0-2000ms auto-click delay."
   ]
 }

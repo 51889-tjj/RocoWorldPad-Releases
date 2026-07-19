@@ -1,14 +1,14 @@
 {
-  "latestVersion": "2.1.16",
-  "tag": "v2.1.16",
-  "title": "RocoWorldPad 2.1.16",
+  "latestVersion": "2.1.17",
+  "tag": "v2.1.17",
+  "title": "RocoWorldPad 2.1.17",
   "force": false,
-  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.16/RocoWorldPad_Setup_2.1.16.exe",
-  "sha256": "00c8eead62695a42efe77094ecdb88d166e8c19ef0a2d40f21f5fe2106d8ca3c",
+  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.17/RocoWorldPad_Setup_2.1.17.exe",
+  "sha256": "ff3b595d9534b7524d517bc7f270f2529a7ad00454bf0a1c5da65e87b269e719",
   "notes": [
-    "Layer-specific controller overlays with Xbox and PlayStation prompts.",
-    "Cross-area keyboard and mouse combos plus wheel layer selection.",
-    "Stick hold/toggle actions, adjustable deadzones, and FF14 wheel flicker fix.",
-    "Recognition point jumps support a configurable 0-2000ms auto-click delay."
+    "Advanced automation rules are now separated into clear per-layer sections.",
+    "Layer selection now uses dark themed buttons instead of the unreadable system dropdown.",
+    "Each layer section shows its rule count for easier configuration management.",
+    "Version reporting is unified across the application, runtime, and updater."
   ]
 }

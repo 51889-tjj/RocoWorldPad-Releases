@@ -1,14 +1,14 @@
 {
-  "latestVersion": "2.1.17",
-  "tag": "v2.1.17",
-  "title": "RocoWorldPad 2.1.17",
+  "latestVersion": "2.1.18",
+  "tag": "v2.1.18",
+  "title": "RocoWorldPad 2.1.18",
   "force": false,
-  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.17/RocoWorldPad_Setup_2.1.17.exe",
-  "sha256": "ff3b595d9534b7524d517bc7f270f2529a7ad00454bf0a1c5da65e87b269e719",
+  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.18/RocoWorldPad_Setup_2.1.18.exe",
+  "sha256": "5962e3b09ef3dcf9da448975d36cc0a19738b236109adb9e5a7ea6892384227a",
   "notes": [
-    "Advanced automation rules are now separated into clear per-layer sections.",
-    "Layer selection now uses dark themed buttons instead of the unreadable system dropdown.",
-    "Each layer section shows its rule count for easier configuration management.",
-    "Version reporting is unified across the application, runtime, and updater."
+    "Overlay hints can now be controlled from the layer editor based on image-remap and key-remap triggers.",
+    "When image-remap templates appear or disappear, their configured overlay hints now update in real time.",
+    "Overlay visibility-control settings are retained during runtime synchronization and configuration import/export.",
+    "Removed unstable duplicate overlay-editor entry points from remap rules."
   ]
 }

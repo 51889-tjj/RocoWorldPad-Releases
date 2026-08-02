@@ -1,14 +1,14 @@
 {
-  "latestVersion": "2.1.18",
-  "tag": "v2.1.18",
-  "title": "RocoWorldPad 2.1.18",
+  "latestVersion": "2.1.19",
+  "tag": "v2.1.19",
+  "title": "RocoWorldPad 2.1.19",
   "force": false,
-  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.18/RocoWorldPad_Setup_2.1.18.exe",
-  "sha256": "5962e3b09ef3dcf9da448975d36cc0a19738b236109adb9e5a7ea6892384227a",
+  "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.19/RocoWorldPad_Setup_2.1.19.exe",
+  "sha256": "a7c7dc2acc262444caf2dcaebd095b720c6257ef8ed4fe2d4676097562fe8880",
   "notes": [
-    "Overlay hints can now be controlled from the layer editor based on image-remap and key-remap triggers.",
-    "When image-remap templates appear or disappear, their configured overlay hints now update in real time.",
-    "Overlay visibility-control settings are retained during runtime synchronization and configuration import/export.",
-    "Removed unstable duplicate overlay-editor entry points from remap rules."
+    "Exported configurations now retain mouse behaviors such as mouse clicks and point menus.",
+    "Imported configurations now restore mouse behavior enabled states from the author configuration.",
+    "Overlay image-remap visibility rules remain enabled after export, import, and runtime synchronization.",
+    "Updated the native Release executable and web UI resources to 2.1.19."
   ]
 }

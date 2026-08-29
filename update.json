@@ -4,11 +4,12 @@
   "title": "RocoWorldPad 2.1.19",
   "force": false,
   "installerUrl": "https://github.com/51889-tjj/RocoWorldPad-Releases/releases/download/v2.1.19/RocoWorldPad_Setup_2.1.19.exe",
-  "sha256": "a7c7dc2acc262444caf2dcaebd095b720c6257ef8ed4fe2d4676097562fe8880",
+  "sha256": "65ba0965f6118aed4c13681b97ee5cb40052fa8a89d8d9e62aa108049db684b6",
   "notes": [
     "Exported configurations now retain mouse behaviors such as mouse clicks and point menus.",
     "Imported configurations now restore mouse behavior enabled states from the author configuration.",
     "Overlay image-remap visibility rules remain enabled after export, import, and runtime synchronization.",
-    "Updated the native Release executable and web UI resources to 2.1.19."
+    "Updated the native Release executable and web UI resources to 2.1.19.",
+    "Added an Apex-style stick-mouse response curve with precise center control and smooth edge acceleration."
   ]
 }
